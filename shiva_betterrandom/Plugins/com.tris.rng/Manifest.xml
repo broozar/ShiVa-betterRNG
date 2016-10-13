@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest version="2" >
+	<plugin name="BetterRNG" version="1.0" s3dx_sdk_version="0x2000000" >
+		<info>
+			<description>RNG lib for ShiVa</description>
+			<author>
+				<name>Felix Caffier</name>
+				<mail/>
+				<site>trisymphony.com</site>
+			</author>
+		</info>
+		<certificate/>
+		<files>
+			<platform type="Windows" >
+				<arch type="x86_32" >x86_32/BetterRNG.dll</arch>
+				<arch type="x86_64" >x86_64/BetterRNG.dll</arch>
+			</platform>
+			<platform type="WinRT" toolset="w10" >
+				<arch type="x86_32" >w10_x86_32/BetterRNG.dll</arch>
+				<arch type="x86_64" >w10_x86_64/BetterRNG.dll</arch>
+				<arch type="arm_32" >w10_arm_32/BetterRNG.dll</arch>
+			</platform>
+			<platform type="WinRT" toolset="wp8" >
+				<arch type="x86_32" >wp8_x86_32/BetterRNG.dll</arch>
+				<arch type="arm_32" >wp8_arm_32/BetterRNG.dll</arch>
+			</platform>
+			<platform type="Mac" >
+				<arch type="ppc_32" >BetterRNG.dylib</arch>
+				<arch type="ppc_64" >BetterRNG.dylib</arch>
+				<arch type="x86_32" >BetterRNG.dylib</arch>
+				<arch type="x86_64" >BetterRNG.dylib</arch>
+			</platform>
+			<platform type="Linux" >
+				<arch type="x86_32" >x86_32/BetterRNG.so</arch>
+				<arch type="x86_64" >x86_64/BetterRNG.so</arch>
+			</platform>
+			<platform type="iOS" >
+				<arch type="arm_v6" >BetterRNG.a</arch>
+				<arch type="arm_v7" >BetterRNG.a</arch>
+			</platform>
+			<platform type="Android" >
+				<arch type="arm_v5te" >arm_v5te/BetterRNG.a</arch>
+				<arch type="arm_v7a" >arm_v7a/BetterRNG.a</arch>
+				<arch type="x86_32" >x86_32/BetterRNG.a</arch>
+			</platform>
+			<platform type="Palm" >
+				<arch type="arm_v6" >BetterRNG.a</arch>
+			</platform>
+			<platform type="BlackBerry" >
+				<arch type="arm_v7" >BetterRNG.a</arch>
+			</platform>
+			<platform type="Flash" >
+				<arch type="noarch" >BetterRNG.swc</arch>
+			</platform>
+			<platform type="Marmalade" >
+				<arch type="arm_v4t" >BetterRNG.a</arch>
+			</platform>
+			<platform type="Wii" >
+				<arch type="ppc_32" >BetterRNG.a</arch>
+			</platform>
+			<platform type="PSP" >
+				<arch type="mips_32" >BetterRNG.a</arch>
+			</platform>
+			<platform type="PS3" >
+				<arch type="ppc_32" >BetterRNG.a</arch>
+			</platform>
+			<platform type="NaCl" >
+				<arch type="x86_32" >x86_32/BetterRNG.a</arch>
+				<arch type="x86_64" >x86_64/BetterRNG.a</arch>
+			</platform>
+			<platform type="XB360" >
+				<arch type="ppc_32" >BetterRNG.lib</arch>
+			</platform>
+		</files>
+	</plugin>
+</manifest>

@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+function rngInit.onInit()
+
+
+
+
+
+
+
+
+
+
+
+local algo=this.algorithm()
+
+if algo~="default"then
+if srng.init(algo)then
+log.message("BetterRNG: Using "..algo)
+this._isInitialized(true)
+else
+log.warning("BetterRNG: Init of "..algo.." FAILED")
+end
+
+else
+if srng.init("pcg32")then
+log.message("BetterRNG: Using PCG32")
+this._isInitialized(true)
+else
+log.warning("BetterRNG: Init FAILED")
+end
+end
+
+
+end
